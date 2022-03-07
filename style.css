@@ -32,7 +32,7 @@ body{
     width: 100px;
     margin-top: 5px;
     border-radius: 50px;
-    font-size: 30pt;
+    font-size: 20pt;
     font-weight: bold; /* 통통한 글씨 */
     text-align: center;
 }
@@ -45,7 +45,7 @@ body{
     width: 80px;
     margin-top: 5px;
     border-radius: 50px;
-    font-size: 20pt;
+    font-size: 10pt;
     font-weight: bold; /* 통통한 글씨 */
     text-align: center;
 }
