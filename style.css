@@ -1,0 +1,117 @@
+body{
+    /* 배경을 사용하는 요소를 다 채울 수 있게 이미지를 확대 또는 축소 */
+    background-size: cover;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'East Sea Dokdo', cursive;
+    background-image: url(image/soju.jpeg);
+}
+
+.container{
+    border: 10px solid white; 
+    /* 상자 테두리를 둥글게 만드는 속성 */
+    border-radius: 20px;
+    text-align: center;
+    /* rgba : 선택한 배경이미지를 투명, 반투명하게 처리 */
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+/* id에 style 주는 방법 */
+#result-area{
+    font-size: 40pt;
+}
+
+.button-color1{
+    background-color:forestgreen;
+    border-color:forestgreen;
+    color:white;
+    height: 80px;
+    width: 100px;
+    margin-top: 5px;
+    border-radius: 50px;
+    font-size: 30pt;
+    font-weight: bold; /* 통통한 글씨 */
+}
+
+.button-color2{
+    background-color:gold;
+    border-color:gold;
+    color: black;
+    height: 60px;
+    width: 80px;
+    margin-top: 5px;
+    border-radius: 50px;
+    font-size: 20pt;
+    font-weight: bold; /* 통통한 글씨 */
+}
+
+.pre-tittle{
+    font-size: 5vw; /* 반응형) 1vw = 뷰포트 너비의 1%로 계산 */
+    font-weight: bold;
+    color:blue;  
+}
+
+.title{
+    /* 화면 너비가 1000이라고 가정했을 때, 1vw = 10px */
+    font-size: 5vw;
+    font-weight: bold;
+}
+
+.sub-title{
+    font-size: 6vw;
+    font-weight: bold;
+}
+
+.red-text{
+    color: red;
+}
+
+.form-control{
+    height: 80px;
+    font-size: 3vw;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 5vw;
+}
+
+.button-sort{
+    display: flex;
+    justify-content: center;
+}
+
+.main-img{
+    height: 20vh;
+}
+
+@media screen and (max-width: 48rem) {
+    .pre-tittle{
+        font-size: 10vw;
+    }
+
+    .title{
+        font-size: 12vw;
+    }
+
+    .sub-title{
+        font-size: 11vw;
+    }
+
+    .form-control{
+        font-size: 8vw;
+        max-width: 500px;
+        margin-right: 0px;
+    }
+
+    .main-img {
+        width: 40vW;
+    }
+
+    .button-reset{
+        font-size: 5vw;
+        width: 80px;
+        height: 60px;
+    }
+}
