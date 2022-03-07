@@ -34,6 +34,7 @@ body{
     border-radius: 50px;
     font-size: 30pt;
     font-weight: bold; /* 통통한 글씨 */
+    text-align: center;
 }
 
 .button-color2{
@@ -46,6 +47,7 @@ body{
     border-radius: 50px;
     font-size: 20pt;
     font-weight: bold; /* 통통한 글씨 */
+    text-align: center;
 }
 
 .pre-tittle{
